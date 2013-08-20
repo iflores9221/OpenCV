@@ -41,6 +41,9 @@ sudo apt-get -y install libvorbis-dev
 sudo apt-get -y install libxvidcore-dev
 sudo apt-get -y install x264 v4l-utils
 sudo apt-get -y install ffmpeg
+sudo apt-get -y install gstreamer0.10-plugins-base
+sudo apt-get -y install gstreamer0.10-plugins-bad-multiverse
+sudo apt-get -y install gstreamer0.10-plugins-good  
 echo "Downloading OpenCV 2.4.5"
 wget -O OpenCV-2.4.5.tar.gz http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.5/opencv-2.4.5.tar.gz/download
 
